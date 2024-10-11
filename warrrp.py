@@ -65,7 +65,7 @@ def extract_top_two_servers():
             next(reader)  # Skip header
             
             for row in reader:
-                server_address = row[0].split(':')[0]  # Extract only the server address
+                server_address = row[0]
                 top_servers.append(server_address)
                 
                 if len(top_servers) == 2:
