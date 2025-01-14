@@ -101,7 +101,7 @@ def generate_warp_config(top_servers, last_update_time):
     plus_key = os.getenv('PLUS_KEY')
 
     warp_config = (
-        f"warp://{top_servers[0]}?ifp=20-35&ifps=5-35&ifpd=5-35&ifpm=m4#Warp&&detour=warp://{top_servers[1]}#Warp-IN-Warp"
+        f"warp://{top_servers[0]}?ifp=50-100&ifps=50-100&ifpd=3-6&ifpm=m4#Warp&&detour=warp://{top_servers[1]}#Warp-IN-Warp"
     )
 
     warp_hiddify_config = (
