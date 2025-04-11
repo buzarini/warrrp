@@ -1,0 +1,8 @@
+2025-04-11 14:28:35,594 - INFO - === Запуск WARRRP Scanner v2 ===
+2025-04-11 14:28:35,594 - CRITICAL - Критическая ошибка: name 'WARP_SERVER_SCANNER_PATH' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/warrrp/warrrp/warrrp.py", line 185, in <module>
+    main()
+  File "/home/runner/work/warrrp/warrrp/warrrp.py", line 159, in main
+    if not validate_binary(WARP_SERVER_SCANNER_PATH):
+NameError: name 'WARP_SERVER_SCANNER_PATH' is not defined
